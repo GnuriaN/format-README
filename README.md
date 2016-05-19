@@ -157,9 +157,9 @@ _italic too_
 Если нужно выделить слово или фразу внутри строки, то используются одинарные обратные апострофы (`), для выделения в блоки - тройные. Дополнительно можно задавать язык кода внутри блока:
 ```
 Можно использовать `light-code` внутри строки
-```
+'''
 code block
-```
+'''
 ```
 
 ```
@@ -167,6 +167,21 @@ code block
 ```
 Можно указать конкретный язык
 ```
+'''C#
+using MarkdownSharp;
+using MarkdownSharp.Extensions.Mal;
+
+Markdown mark = new Markdown();
+
+// Short link for MAL - 
+// http://myanimelist.net/people/413/Kitamura_Eri => mal://Kitamura_Eri
+mark.AddExtension(new Articles()); 
+mark.AddExtension(new Profile());
+
+mark.Transform(text);
+'''
+```
+
 ```C#
 using MarkdownSharp;
 using MarkdownSharp.Extensions.Mal;
@@ -179,5 +194,4 @@ mark.AddExtension(new Articles());
 mark.AddExtension(new Profile());
 
 mark.Transform(text);
-```
 ```
