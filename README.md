@@ -166,12 +166,12 @@ code block
 ```
 > 
 ```
-```c#
-//php code 
+```С#
+//C# code 
 var foo = new BarClass();
 ```
 ```
-```c#
-//php code 
+```С#
+//C# code 
 var foo = new BarClass();
 ```
