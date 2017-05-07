@@ -8,7 +8,7 @@
 3. Подсветка кода [ПодсветкаКода.md](https://github.com/GnuriaN/format-README.md/blob/master/ПодсветкаКода.md)
 4. Списки [Списки.md](https://github.com/GnuriaN/format-README.md/blob/master/Списки.md)
 5. [Ссылки](README.md#Ссылки)
-6. [Вставка изображения](README.md#Вставки-изображения)
+6. [Вставка изображения](README.md#Вставка-изображения)
 7. [Вставка таблиц](README.md#Вставка-таблиц)
     
 ## Ссылки
