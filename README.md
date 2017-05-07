@@ -11,20 +11,30 @@
 ## Ссылки
 Либо просто вставить ссылку, либо дополнительно задать текст ссылки (пробела между скобками быть не должно):
 ```
-http://sabaka.net
+Первый вариант вставки ссылок: http://sabaka.net
+```
+Первый вариант вставки ссылок: http://sabaka.net
+
+Второй вариант записыватеься так
+```
 [sabaka.net](http://sabaka.net)
 ```
-http://sabaka.net
+[sabaka.net](http://sabaka.net)
 
-[sabaka(DOT)net](http://sabaka.net)
+#### 1
+
+```
+http://sabaka.net    
+
+[sabaka(DOT)net](http://sabaka.net)    
 
 Можно выводить через "константу", которую можно задать в любом месте, обычно их задают в конце документа.
 ```
 [Sabaka(DOT)Net]
 [Sabaka(DOT)Net]:http://sabaka.net
 ```
-[Sabaka(DOT)Net]
-[Sabaka(DOT)Net]:http://sabaka.net
+[Sabaka(DOT)Net]    
+[Sabaka(DOT)Net]:http://sabaka.net    
 
 ## Вставки изображения
 ```
