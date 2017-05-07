@@ -6,6 +6,8 @@
 3. Подсветка кода [ПодсветкаКода.md](https://github.com/GnuriaN/format-README.md/blob/master/ПодсветкаКода.md)
 4. Списки [Списки.md](https://github.com/GnuriaN/format-README.md/blob/master/Списки.md)
 5. [Ссылки](README.md#Ссылки)
+6. [Вставка изображения](README.md#Вставки-изображения)
+7. [Вставка таблиц](README.md#Вставка-таблиц)
 
  
 ## Ссылки
@@ -23,7 +25,7 @@
 
 [Sabaka(DOT)Net]:http://sabaka.net    
 
-## Вставки изображения
+## Вставка изображения
 ```
 ![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
 ```
