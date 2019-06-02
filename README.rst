@@ -14,7 +14,7 @@ reStructuredText (сокращение: ReST, расширение файла: .
 
 **Sphinx** — это генератор документации, который преобразует файлы в формате *reStructuredText* в HTML website и другие форматы (PDF, EPub и man). Он использует ряд расширений для reStructuredText (например, для автоматической генерации документации по исходному коду, создания математических формул или подсветки исходного кода). Первый публичный релиз (версия 0.1.61611) был объявлен 21 марта 2008 года. Он был разработан и широко используется для документирования языка программирования Python, а также его дополнительных модулей.
 
-Вся необходимая информация для работы с **Sphinx** и форматом **reStructuredText** нахоядться тут: https://sphinx-ru.readthedocs.io/ru/latest/index.html 
+Вся необходимая информация для работы с **Sphinx** и форматом **reStructuredText** нахоядться тут: https://sphinx-ru.readthedocs.io/ru/latest/index.html и тут https://sphinx-ru.readthedocs.io/ru/latest/rst-markup.html#retext
 
 .. |date| date:: %d.%m.%Y
 .. |time| date:: %H:%M
