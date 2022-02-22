@@ -17,7 +17,8 @@
 7. [Ссылки](#Ссылки)
 8. [Вставка изображения](#Вставка-изображения)
 9. [Вставка таблиц](#Вставка-таблиц)
-10. [Дополнения](https://github.com/GnuriaN/format-README/blob/master/Дополнения.md)
+10. [Диаграмм Mermaid.js](#Диаграмм-Mermaid.js)
+11. [Дополнения](https://github.com/GnuriaN/format-README/blob/master/Дополнения.md)
     
 ## Разделительная черта
 При использовании
@@ -454,6 +455,33 @@ ____
 |----:|:----:|:----------|
 | literal | Строка содержит символьный литерал literal | foo |
 | re1&#124;re2 | Строка содержит регулярные выражения `rel` или `re2` | foo&#124;bar |
+
+[:arrow_up:Оглавление](#Оглавление) 
+____
+## Диаграмм Mermaid.js
+Появилась возможность вставлять диаграммы [Mermaid.js](https://mermaid-js.github.io/mermaid/#/)
+
+<pre>
+```mermaid
+... код диаграммы ...
+```
+</pre>
+Пример:
+<pre>
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+</pre>
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+Очень по дробно на руссеом о диаграммах: https://habr.com/ru/post/652867/
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
